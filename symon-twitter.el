@@ -159,15 +159,15 @@
   :group 'symon-twitter-timeline)
 
 (defface symon-twitter-user-description-face
-  '((((background light)) (:background "#e4e3de"))
-    (t (:background "#4c4c4c")))
+  '((((background light)) (:background "#d0d0d0"))
+    (t (:background "#303030")))
   "Face used to highlight user description in symon-twitter
 timelines."
   :group 'symon-twitter-timeline)
 
 (defface symon-twitter-quoted-tweet-face
-  '((((background light)) (:background "#e4e3de"))
-    (t (:background "#4c4c4c")))
+  '((((background light)) (:background "#d0d0d0"))
+    (t (:background "#303030")))
   "Face used to highlight quoted tweets in symon-twitter
 timelines."
   :group 'symon-twitter-timeline)
