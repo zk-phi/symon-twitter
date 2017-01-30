@@ -158,13 +158,6 @@
   "Face used to highlight tweet time in symon-twitter timelines."
   :group 'symon-twitter-timeline)
 
-(defface symon-twitter-client-name-face
-  '((((background light)) (:foreground "#aea89a"))
-    (t (:foreground "#e2c69f")))
-  "Face used to highlight twitter client names in symon-twitter
-timelines."
-  :group 'symon-twitter-timeline)
-
 (defface symon-twitter-user-description-face
   '((((background light)) (:background "#e4e3de"))
     (t (:background "#4c4c4c")))
