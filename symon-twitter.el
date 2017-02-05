@@ -54,7 +54,7 @@
 
 (defconst symon-twitter-reply-icon
   (when symon-twitter--fontawesome-available-p
-    (propertize "" 'face `(:family "FontAwesome" :foreground "#b2b2b2" :height 1.35)))
+    (propertize "" 'face `(:family "FontAwesome" :inherit symon-twitter-button-face :height 1.35)))
   "Icon used to display reply button.")
 
 (defconst symon-twitter-retweeted-icon
@@ -64,7 +64,7 @@
 
 (defconst symon-twitter-retweet-icon
   (when symon-twitter--fontawesome-available-p
-    (propertize "" 'face `(:family "FontAwesome" :foreground "#b2b2b2" :height 1.35)))
+    (propertize "" 'face `(:family "FontAwesome" :inherit symon-twitter-button-face :height 1.35)))
   "Icon used to display retweet button.")
 
 (defconst symon-twitter-favorited-icon
@@ -74,17 +74,17 @@
 
 (defconst symon-twitter-favorite-icon
   (when symon-twitter--fontawesome-available-p
-    (propertize "" 'face `(:family "FontAwesome" :foreground "#b2b2b2" :height 1.35)))
+    (propertize "" 'face `(:family "FontAwesome" :inherit symon-twitter-button-face :height 1.35)))
   "Icon used to display favorite button.")
 
 (defconst symon-twitter-quote-icon
   (when symon-twitter--fontawesome-available-p
-    (propertize "" 'face `(:family "FontAwesome" :foreground "#b2b2b2" :height 1.35)))
+    (propertize "" 'face `(:family "FontAwesome" :inherit symon-twitter-button-face :height 1.35)))
   "Icon used to display quote button.")
 
 (defconst symon-twitter-delete-icon
   (when symon-twitter--fontawesome-available-p
-    (propertize "" 'face `(:family "FontAwesome" :foreground "#b2b2b2" :height 1.35)))
+    (propertize "" 'face `(:family "FontAwesome" :inherit symon-twitter-button-face :height 1.35)))
   "Icon used to display delete button.")
 
 (defconst symon-twitter-verified-icon
